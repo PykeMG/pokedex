@@ -1,0 +1,25 @@
+.loadingScreen{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background: var(--bg-gradient);
+}
+
+.loadingScreenIcon{
+    width: 40%;
+    height: 40%;
+    object-fit: contain;
+    animation: infinite 5s rotate;
+}
+
+@keyframes rotate {
+    0%{
+        rotate:360deg;
+    };
+    50%{
+        rotate: 0deg;
+    };
+    100%{
+        rotate: 360deg;
+    };
+}
