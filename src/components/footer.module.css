@@ -1,12 +1,12 @@
 .footer{
     display: flex;
     justify-content: space-around;
-    padding: 10px;
     background: var(--bg-color);
     overflow: hidden;
     width: 100vw;
     position: fixed;
     bottom: 0;
+    height: 80px;
 }
 .footerLink{
     display: flex;

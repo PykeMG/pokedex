@@ -1,6 +1,9 @@
+nav{
+  margin-top: 80px;
+}
 .listItem {
     display: flex;
-    border-bottom: 2px solid #e4e4e4;
+    border-bottom: 3px solid #e4e4e4;
     padding: 10px;
     text-decoration: none;
     align-items: center;
@@ -12,6 +15,7 @@
   
   .listItem > :last-child {
     margin: 0;
+    margin-bottom: 15px;
   }
   
   .listItemIcon {
