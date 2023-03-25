@@ -18,6 +18,11 @@ export async function fetchPokemon(pokemonname: string): Promise<PokemonDetails>
         attack: result.stats[1]?.base_stat,
         defense: result.stats[2]?.base_stat,
         speed: result.stats[5]?.base_stat,
+        type: result.types[0]?.type.name,
+        type2: result.types[1]?.type.name,
+        weight: result.weight,
+        height: result.height,
+        ability: result.abilities[0]?.ability.name,
       };
       return pokemon;
 };

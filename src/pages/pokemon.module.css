@@ -1,5 +1,6 @@
 .pokemon{
-    height: 80vh;
+    height: calc(100vh - 152px);
+    background-color: #b6b6b6;
 }
 .pokeballbutton{
     border: none;
@@ -8,11 +9,12 @@
     display: flex;
     align-items: center;
     background: none;
-    padding: 50px 50px 0 50px;
+    padding: 20px 20px;
+    height: 72px;
 }
 .pokemonimg{
-    width: 25px;
-    height: 25px;
+    width: 2rem;
+    height: 2rem;
     margin-right: 5px;
 }
 .pokemoninfo{
@@ -28,4 +30,55 @@
     margin: 50px 0;
     font-size: 2rem;
     font-weight: bold;
+}
+.hpbar{
+    width: 60vw;
+    background-color: #9ffc8c;
+    height: 5px;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+.column{
+    margin-top: 1.5rem;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1.5rem;;
+}
+.row:nth-child(2){
+    border-right: solid 1px rgba(0, 0, 0,0.5);
+    border-left: solid 1px rgba(0, 0, 0,0.5);
+}
+.text{
+    color: rgba(0, 0, 0,0.5) !important; 
+    font-weight: bold;
+}
+.abilities{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0 0 0;
+}
+.row span{
+    font-size: 1rem;
+    padding: 3px 10px;
+    margin: 5px 0;
+    color: white; 
+    border-radius: 5px;
+    font-weight: bold;
+}
+.content{
+    background-color: white;
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem 0;
+    border-radius: 10px;
 }

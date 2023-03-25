@@ -40,7 +40,11 @@ const Pokemons = () =>{
                     <img src={pokemon.imgSrc} alt={pokemon.name} className={styles.listItemIcon} />
                     <div className={styles.listItemText}>
                         <span>{pokemon.name}</span>
-                        <span>{pokemon.id}</span>
+                        <span>Nro {pokemon.id}</span>
+                        <div className={styles.types}>
+                            <span className={pokemon.type}>{pokemon.type}</span>
+                            <span className={pokemon.type2}>{pokemon.type2}</span>
+                        </div>
                     </div>
                 </Link>
                 ))}

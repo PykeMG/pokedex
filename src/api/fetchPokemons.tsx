@@ -1,4 +1,3 @@
-
 import { Pokemon } from "../types/types";
 import { formatPokemonName } from "../utils/utils";
 
@@ -14,6 +13,8 @@ export async function fetchPokemons(): Promise<Pokemon[]> {
     const pokemons = results.results.map((pokemon: any) => ({
         name: pokemon.name,
         id: pokemon.national_number,
+        type: pokemon.type[0],
+        type2: pokemon.type[1],
         imgSrc: `https://img.pokemondb.net/sprites/black-white/anim/normal/${formatPokemonName(pokemon.name.toLowerCase())}.gif`,
     }));
 

@@ -34,3 +34,57 @@ body{
   height: 100%;
   overflow: auto;
 }
+.Grass, .grass{
+  background: #78C850;
+}
+.Poison, .poison{
+  background: #A040A0;
+}
+.Fire, .fire{
+  background: #F08030;
+}
+.Water, .water{
+  background: #6890F0;
+}
+.Bug, .bug{
+  background: #A8B820;
+}
+.Normal, .normal{
+  background: #A8A878;
+}
+.Flying, .flying{
+  background: skyblue;
+}
+.Dark, .dark{
+  background: black;
+}
+.Electric, .electric{
+  background: #F8D030;
+}
+.Ice, .ice{
+  background: #98D8D8;
+}
+.Steel, .steel{
+  background: #B8B8D0;
+}
+.Ground, .ground{
+  background: #E0C068;
+}
+.Fairy, .fairy{
+  background: #EE99AC;
+}
+.Fighting, .fighting{
+  background: #C03028;
+}
+.Psychic, .psychic{
+  background: #F85888;
+}
+.Rock, .rock{
+  background: #B8A038;
+}
+.Ghost,.ghost{
+  background: #4942af;
+}
+.Dragon, .dragon{
+  background: #39adb1;
+}

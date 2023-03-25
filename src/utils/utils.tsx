@@ -13,3 +13,9 @@ export function formatPokemonName(name: string): string {
 export function waitFor(time: number): Promise<void> {
     return new Promise((resolve) => setTimeout(resolve, time));
 }
+export function convertGramsToKilograms(weight:number): number{
+    return weight/10;
+}
+export function convertCentimeterstoMeters(height:number): number{
+    return height/10;
+}
